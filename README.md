@@ -1,5 +1,5 @@
 经常看到如下的效果，ListView拖拽排序的效果，这部分就是实现这样的效果。
-![ListView拖拽排序](http://1.infotravel.sinaapp.com/pic/34.gif)
+![ListView拖拽排序](http://1.infotravel.sinaapp.com/pic/34.gif) 
 <!--more-->
 ListView列表拖拽排序可以参考Android源代码下的Music播放列表，他是可以拖拽的，源码在[packages/apps/Music下的`TouchInterceptor.java`下]。
 首先是搭建框架,此处的ListView列表类似于QQ消息列表，当然数据只是模拟，为了简单起见，没有把ListView的条目的所有的属性全部写上。首先是消息的实体类Msg.java:
